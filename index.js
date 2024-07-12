@@ -17,6 +17,7 @@ let ind = Math.floor(Math.random() * 2);
 
 function initialize()
 {
+    ind = Math.floor(Math.random() * 2);
     currPlayer = str[ind];
     gameGrid = ["","","","","","","","",""];
     grids.forEach((box,ind) =>{
